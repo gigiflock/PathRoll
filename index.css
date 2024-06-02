@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(53, 25, 92);
+    font-size: 28px;
+    font-family: "Poly", serif;
+}
+header{
+    color: white;
+    background-color: rgb(53, 25, 92);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Arapey", serif;
+}
+main{
+    margin: 20px;
+}
+.button_random{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#button_random{
+    color: rgb(239, 241, 247);
+    background-color: rgb(111, 71, 167);
+    border-style: none;
+    border-radius: 100px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Poly", serif;
+}
+.fichaGrid{
+    padding: 20px;
+    display: grid;
+    gap: 2px;
+    background-color: rgba(236, 233, 243, 0.527);
+    font-family: "Poly", serif;
+}
+.fichaGrid > div{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+#a { grid-column: 1/3; grid-row: 1/2; }
+#bc { grid-column: 1/3; grid-row: 2/3; }
+#trained { grid-column: 1/3; grid-row: 3/5; }
+#languages { grid-column: 1/3; grid-row: 5/8;}
+#life { grid-column: 3/4; grid-row: 1/2; }
+#st { grid-column: 3/4; grid-row: 2/5; }
+#s { grid-column: 3/4; grid-row: 5/6; }
+#dc { grid-column: 3/4; grid-row: 6/8; }
+#stats { grid-column: 4/6; grid-row: 1/2; }
+#ab { grid-column: 4/4; grid-row: 2/6; }
+#ft { grid-column: 5/6; grid-row: 2/6 }
+#skills { grid-column: 6/6; grid-row: 1/9; }
+#notes { grid-column: 1/4; grid-row: 8/9; }
+#magic { grid-column: 4/6; grid-row: 6/9; }
